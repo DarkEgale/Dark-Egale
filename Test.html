@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<input type="checkbox" id="checkbox">
+    <nav class="navbar">
+        <label for="checkbox" id="toggle-box">
+            <div class="span-1"></div>
+            <div class="span-2"></div>
+            <div class="span-3"></div>
+        </label>
+        <img src="Image/logo.png" alt=""class="logo-img">
+            <ul class="nav-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">About-us</a></li>
+                <li id="toggle-icon"><a href="">Service</a>
+                    <div class="dropdown-background">
+                    <ul class="dropdown">
+                        <li>Service 1</li>
+                        <li>Service 2</li>
+                        <li>Service 3</li>
+                    </ul>
+                    </div>
+                </li>
+                <li><a href="">Contacts</a></li>
+                <li><a href=""id="login_icon">Login</a></li>
+                <div id="dropdown-menu">
+                    <ul>
+                        <li>Action</li>
+                    </ul>
+                </div>
+            </ul>
+        <div class="search-box">
+            <form action="search"class="search-form">
+                <input type="search"class="input-search"placeholder="Search">
+                <button class="btn-search">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div id="home">
+        <img src="Image/banner.png" alt="" srcset=""class="banner-image">
+        <h1 class="text-box">
+            <b href="" class="typewrite"text-decoration="none" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+                <span class="wrap"></span>
+            </b>
+        </h1>
+    </div>
+
+
+    <div id="login">
+        <form action="" method="post">
+            <label id="exit-icon">
+                <div class="sp1"></div>
+                <div class="sp2"></div>
+            </label><br>
+            <input type="email"id="email"placeholder="Enter your email"><br>
+            <input type="password"id="password"placeholder='Enter your password'><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+
+    <div id="contact">
+        <form action="">
+            Name: <br>
+            <input type="text" id="name"><br>
+            Email: <br>
+            <input type="email"id="contact_email"><br>
+            Massage: <br>
+            <textarea id="textarea"></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="support">
+
+    </div>
+    <footer id="footer">
+        All Right is reverse to devloperteam
+    </footer>
+
+
+
+      
+      
+    <script src="main.js"></script>
+</body>
+</html>
