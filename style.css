@@ -271,6 +271,32 @@ nav ul{
     margin-left: 250px;
     }
 
+
+
+
+
+#about{
+    width: 100%;
+    height: fit-content;
+    margin-top: 400px;
+}
+.container{
+    border: 1px solid black;
+    height: fit-content;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.container img{
+    float: left;
+    width: fit-content;
+    height: 240px;
+    border: 1px solid black;
+}
+
+
+
+
 #contact{
     margin-top: 400px;
 }
