@@ -146,6 +146,13 @@ ul li a{
     padding: 10px;
     overflow-x: hidden;
 }
+.follow_h3{
+    line-height: 40px;
+}
+#follow .facebook:hover{
+    background:  #e6e6e6;
+    cursor: pointer;
+}
 @media (max-width:800px) {
     #follow{
         width: 16%;
@@ -155,7 +162,7 @@ ul li a{
     width: 100%;
     height: 40px;
     border: 20px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 20px;
     margin-top: 15px;
     margin-left: auto;
@@ -180,7 +187,7 @@ ul li a{
     
 }
 #youtube{
-    border: 1px solid black;
+    border: none;
 }
 /*support div*/
 
